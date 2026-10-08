@@ -1,6 +1,6 @@
 # Agent brief: build under the Orbit Interface System authority
 
-Authority: `packs/orbit` v0.1.0 (format 0.1). A minimal interface system derived from the NASA Graphics Standards Manual (1976) for the Design Authority portability spike. Carries no NASA marks.
+Authority repo: `authority-orbit` (v0.1.0, format 0.1). A minimal interface system derived from the NASA Graphics Standards Manual (1976) for the Design Authority portability spike. Carries no NASA marks.
 
 Reference build (what "look like this" means for this authority):
   https://designauthority.seanyong.xyz/authorities/orbit/site/
@@ -22,7 +22,7 @@ Build an interface that conforms to THIS authority alone.
    python3 tools/da.py --pack packs/orbit resolve "primary button" --json
 3. Inspect every record before adopting it:
    python3 tools/da.py --pack packs/orbit inspect <id>
-4. Adopt only records from packs/orbit. Never borrow another authority's
+4. Adopt only records shipped by this authority. Never borrow another's
    components, values or classes.
 5. When the authority is silent: build from the nearest recorded pieces, keep
    the improvisation visible (an HTML comment plus data-improv="<reason>"),
